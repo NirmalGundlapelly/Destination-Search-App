@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bgContainer {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  border: none;
+  outline: none;
+  background-color: #f1f5f9;
+  color: #252627;
+  align-self: center;
+}
+.heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: 600;
+}
+.inputContainer {
+  background-color: #f1f5f9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+}
+.searchIcon {
+  width: 30px;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+.searchItemContainer {
+  width: 700px;
+}
+
+@media screen and (max-width: 767px) {
+  .searchItemContainer {
+    width: 380px;
+    padding-right: 15px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
